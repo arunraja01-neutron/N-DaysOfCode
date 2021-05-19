@@ -1,6 +1,4 @@
 #include<iostream>
-#include<vector>
-#include<unordered_set>
 using namespace std;
 // ABC -> ABC BAC CAB BAC ABC ACB CBA ACB ABC
 int count=0;
@@ -10,15 +8,6 @@ void swap(int i, int j, string &s){
     s[j] = temp; 
 }
 
-// bool ls(string s, vector<string> arr){
-//     for(int i=0; i<arr.size(); ++i){
-//         if( arr[i] == s ){
-//             return true;
-//         }
-//     }
-
-//     return false;
-// }
     
 void permutation(string s, int l , int r){
 
